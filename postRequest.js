@@ -25,3 +25,15 @@ function postRequestPromise (url, param){
     request.send (param);
   });
 }
+
+//usage
+//postRequestPromise('http://localhost:8000', 'test').then(function(response){
+//  console.log (response);
+//}).catch(function(error){
+//  if (typeof (error) === "number"){
+//    console.log ("status code is ", error);
+//  } else {
+//    console.log (error);
+//  }
+//  console.log (error);
+//});
